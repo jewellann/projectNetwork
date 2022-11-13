@@ -16,7 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".ShowBlocked"></activity>
+        <activity android:name=".ExpandPost" />
+        <activity android:name=".VideoCallOutgoing" />
+        <activity android:name=".VideoCallinComing" />
+        <activity android:name=".SettingsActivity" />
         <activity android:name=".NotificationActivity" />
         <activity android:name=".ShowLikedUser" />
         <activity android:name=".FollowerActivity" />
