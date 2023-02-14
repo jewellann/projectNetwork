@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".UpdateEmail">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Email"
+        android:id="@+id/newEmail_et"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:id="@+id/newpass_et"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="@drawable/button_back"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:id="@+id/update_emailBtn"/>
+
+
+
+</LinearLayout>
